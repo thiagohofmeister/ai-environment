@@ -2,7 +2,7 @@
 set -eu
 
 REPO_URL="${1:-git@github.com:thiagohofmeister/ai-environment.git}"
-TARGET_DIR="${2:-$HOME/git/codex-home-backup}"
+TARGET_DIR="${2:-$HOME/git/ai-environment}"
 
 if [ -d "$TARGET_DIR/.git" ]; then
   echo "Repo already exists at $TARGET_DIR"
@@ -15,4 +15,3 @@ cd "$TARGET_DIR"
 ./restore-to-home.sh
 
 echo "Bootstrap complete."
-

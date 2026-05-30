@@ -1,4 +1,4 @@
-# codex-home-backup
+# ai-environment
 
 Backup versionado de partes úteis de `~/.codex`:
 
@@ -76,13 +76,13 @@ make bootstrap
 1. Clone o repositório em um local persistente:
 
 ```bash
-git clone git@github.com:thiagohofmeister/ai-environment.git ~/git/codex-home-backup
+git clone git@github.com:thiagohofmeister/ai-environment.git ~/git/ai-environment
 ```
 
 2. Entre no diretório do repo:
 
 ```bash
-cd ~/git/codex-home-backup
+cd ~/git/ai-environment
 ```
 
 3. Restaure os arquivos para `~/.codex`:
