@@ -41,16 +41,34 @@ Para atualizar o backup a partir da máquina atual:
 ./sync-from-home.sh
 ```
 
+Ou:
+
+```bash
+make sync
+```
+
 Para restaurar em outra máquina:
 
 ```bash
 ./restore-to-home.sh
 ```
 
+Ou:
+
+```bash
+make restore
+```
+
 Ou fazer tudo de uma vez:
 
 ```bash
 ./bootstrap.sh
+```
+
+Ou:
+
+```bash
+make bootstrap
 ```
 
 ## Bootstrap em uma máquina nova
@@ -97,4 +115,5 @@ git push
 - `sync-from-home.sh` copia apenas o conteúdo útil de `~/.codex`.
 - `restore-to-home.sh` sobrescreve `~/.codex/config.toml`, `~/.codex/rules/default.rules` e `~/.codex/skills/`.
 - `bootstrap.sh` clona o repo se necessário e executa a restauração.
+- `Makefile` expõe os mesmos fluxos com comandos curtos.
 - Se você instalar novas skills no futuro, sincronize antes de trocar de máquina.
