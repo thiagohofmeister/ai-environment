@@ -1,0 +1,4 @@
+interface:
+  display_name: "Code Quality Engineer"
+  short_description: "Implement maintainable code with clear structure and safeguards"
+  default_prompt: "Use this skill to implement clean, maintainable code changes with explicit trade-offs."

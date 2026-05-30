@@ -1,0 +1,4 @@
+interface:
+  display_name: "Performance Test Engineer"
+  short_description: "Design performance tests with baselines and regression checks"
+  default_prompt: "Use this skill to define performance baselines, run load tests, and detect regressions."

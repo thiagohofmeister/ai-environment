@@ -1,0 +1,33 @@
+model = "gpt-5.4-mini"
+model_reasoning_effort = "medium"
+approvals_reviewer = "user"
+plan_mode_reasoning_effort = "medium"
+[projects."/Users/thiagohofmeister/git/gendaize/api"]
+trust_level = "trusted"
+
+[projects."/Users/thiagohofmeister/git/gendaize"]
+trust_level = "trusted"
+
+[projects."/Users/thiagohofmeister/git/gendaize/web"]
+trust_level = "trusted"
+
+[projects."/Users/thiagohofmeister/git/gendaize/manager"]
+trust_level = "trusted"
+
+[projects."/Users/thiagohofmeister"]
+trust_level = "trusted"
+
+[tui.model_availability_nux]
+"gpt-5.5" = 4
+
+[notice.model_migrations]
+"gpt-5.3-codex" = "gpt-5.5"
+
+[apps.connector_76869538009648d5b282a4bb21c3d157.tools.github_create_pull_request]
+approval_mode = "approve"
+
+[apps.connector_76869538009648d5b282a4bb21c3d157.tools.github_add_comment_to_issue]
+approval_mode = "approve"
+
+[apps.connector_76869538009648d5b282a4bb21c3d157.tools.github_update_pull_request]
+approval_mode = "approve"

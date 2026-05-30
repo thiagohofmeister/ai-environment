@@ -1,0 +1,4 @@
+interface:
+  display_name: "Business Rules Test Engineer"
+  short_description: "Design rule-focused tests with edge cases and coverage"
+  default_prompt: "Use this skill to design and implement business-rule tests with scenario matrices."

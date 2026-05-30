@@ -1,0 +1,24 @@
+# Runtime and sensitive data
+auth.json
+cache/
+history.jsonl
+installation_id
+logs_*.sqlite
+logs_*.sqlite-shm
+logs_*.sqlite-wal
+state_*.sqlite
+state_*.sqlite-shm
+state_*.sqlite-wal
+goals_*.sqlite
+goals_*.sqlite-shm
+goals_*.sqlite-wal
+memories_*.sqlite
+memories_*.sqlite-shm
+memories_*.sqlite-wal
+session_index.jsonl
+shell_snapshots/
+.tmp/
+
+# Local tooling
+.DS_Store
+

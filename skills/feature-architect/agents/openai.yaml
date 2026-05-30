@@ -1,0 +1,4 @@
+interface:
+  display_name: "Feature Architect"
+  short_description: "Plan features with scope, trade-offs, and delivery steps"
+  default_prompt: "Use this skill to define feature scope, architecture decisions, and an implementation plan."
