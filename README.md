@@ -47,6 +47,12 @@ Para restaurar em outra máquina:
 ./restore-to-home.sh
 ```
 
+Ou fazer tudo de uma vez:
+
+```bash
+./bootstrap.sh
+```
+
 ## Bootstrap em uma máquina nova
 
 1. Clone o repositório em um local persistente:
@@ -90,4 +96,5 @@ git push
 
 - `sync-from-home.sh` copia apenas o conteúdo útil de `~/.codex`.
 - `restore-to-home.sh` sobrescreve `~/.codex/config.toml`, `~/.codex/rules/default.rules` e `~/.codex/skills/`.
+- `bootstrap.sh` clona o repo se necessário e executa a restauração.
 - Se você instalar novas skills no futuro, sincronize antes de trocar de máquina.
